@@ -33,7 +33,7 @@ cpdctl dsjob git-configure {--project PROJECT | --project-id PROJID} [--git-enab
 -  `git-org`   Git organization, this field is optional.
 -  `git-email` Git Repository associated email, this field is optional.
 -  `git-provider` Integrate to specific provider, must be `git` or `gitlab` currently.
--  `git-branch` Default branch used for git operations
+-  `git-branch` Default branch used for git operations (this is not working)
 -  `git-folder` Folder to which this project will be committed or fetched from. This is optional
 
 Git URL is the destination of your organizations git URL. Git owner is the user who commits to Git and the Git token is the user’s token used for auth. Fields `git-owner`, `git-org` are deducible to the URL and can be removed from the command eventually. 
